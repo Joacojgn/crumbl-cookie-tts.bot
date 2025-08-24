@@ -1,0 +1,24 @@
+Requirement already satisfied: discord.py in ./.pythonlibs/lib/python3.11/site-packages (2.6.0)
+Requirement already satisfied: gtts in ./.pythonlibs/lib/python3.11/site-packages (2.5.4)
+Requirement already satisfied: aiohttp<4,>=3.7.4 in ./.pythonlibs/lib/python3.11/site-packages (from discord.py) (3.12.15)
+Requirement already satisfied: requests<3,>=2.27 in ./.pythonlibs/lib/python3.11/site-packages (from gtts) (2.32.5)
+Requirement already satisfied: click<8.2,>=7.1 in ./.pythonlibs/lib/python3.11/site-packages (from gtts) (8.1.8)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (2.6.1)
+Requirement already satisfied: aiosignal>=1.4.0 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (1.4.0)
+Requirement already satisfied: attrs>=17.3.0 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (25.3.0)
+Requirement already satisfied: frozenlist>=1.1.1 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (1.7.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (6.6.4)
+Requirement already satisfied: propcache>=0.2.0 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (0.3.2)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in ./.pythonlibs/lib/python3.11/site-packages (from aiohttp<4,>=3.7.4->discord.py) (1.20.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./.pythonlibs/lib/python3.11/site-packages (from requests<3,>=2.27->gtts) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./.pythonlibs/lib/python3.11/site-packages (from requests<3,>=2.27->gtts) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./.pythonlibs/lib/python3.11/site-packages (from requests<3,>=2.27->gtts) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./.pythonlibs/lib/python3.11/site-packages (from requests<3,>=2.27->gtts) (2025.8.3)
+Requirement already satisfied: typing-extensions>=4.2 in ./.pythonlibs/lib/python3.11/site-packages (from aiosignal>=1.4.0->aiohttp<4,>=3.7.4->discord.py) (4.14.1)
+INFO:discord.client:logging in using static token
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 04d1bef9648e5926cb622436f325b198).
+INFO:__main__:✅ Bot conectado como crumbl cookie bot#6500
+✅ Bot conectado como crumbl cookie bot#6500
+📊 Conectado a 1 servidores
+🎯 Comandos disponibles: !crumbl, !salir, !status, !ayuda
